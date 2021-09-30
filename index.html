@@ -13,6 +13,8 @@
   <!--===============================================================================================-->
   <link rel="stylesheet" href="css\main.css">
   <!--===============================================================================================-->
+  <link rel="stylesheet" href="css\mediaQuery.css">
+  <!--===============================================================================================-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--===============================================================================================-->
 </head>
@@ -34,21 +36,79 @@
 
   <header>
     <div id="mobile-menu">
-      <span class="material-icons" id="subscribe-button">
+      <button class="material-icons" id="hamburger-menu">
         menu
+      </button>
+      <p id="mobile-title">
+        <span class="highlighted">trusty</span> newspaper
+      </p>
+      <span class="material-icons" id="hamburger-menu">
+        search
       </span>
-      <div >
-        <a href="">subscribe to our newsletter</a>
-      </div>
-    </div>
-    <div id="title">
-      <h1>trusty newspaper.</h1>
-    </div>
-    <div id="slogan">
-      if it's not from us don't believe it.
     </div>
   </header>
 
+  <main>
+    <div id="trending-now">
+      <span class="highlighted">trending now</span>
+      <p>if it's not from us, it's probably a lie.</p>
+    </div>
+    
+    <section id="trending-articles">
 
+      <div id="highlighted-notice" class="notice-container">
+        <div class="category">
+          <p>social</p>
+        </div>
+        <div class="note-text">
+          <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="note-description">Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+
+      <div class="trending-news-col1">
+        <div id="notice-2" class="notice-container">
+          <div class="category">
+            <p>politic</p>
+          </div>
+          <div class="note-text">
+            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="note-description">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+  
+        <div id="notice-3" class="notice-container">
+          <div class="category">
+            <p>culture</p>
+          </div>
+          <div class="note-text">
+            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="note-description">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="trending-news-col2">
+        <div id="notice-4" class="notice-container">
+          <div class="category">
+            <p>social</p>
+          </div>
+          <div class="note-text">
+            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="note-description">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+  
+        <div id="notice-5" class="notice-container">
+          <div class="category">
+            <p>tv</p>
+          </div>
+          <div class="note-text">
+            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="note-description">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

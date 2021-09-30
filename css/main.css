@@ -1,0 +1,116 @@
+
+main #trending-now{
+  display: flex;
+  margin: 5px 0 5px 0;
+  flex-direction: column;
+}
+
+main #trending-now span, p{
+  align-self: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: .8em;
+  font-weight: 600;
+}
+
+main #trending-now span{
+  padding: 5px;
+  max-width: 30%;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #131313;
+}
+
+main #trending-now p{
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+/* Notice */
+
+main #trending-articles *{
+  margin: 0;
+}
+
+main #trending-articles{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+main #highlighted-notice{
+  width: 400px;
+  height: 400px;
+  margin-bottom: 5px;
+  background-image: url('/img/pexels-markus-spiske-2990644.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+/* Notice container*/
+
+/*[class^="notice-"]{*/
+
+main .notice-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 195px;
+  color: #fff;
+}
+
+main .trending-news-col1,.trending-news-col2 {
+  display: flex;
+  padding-left: 5px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+main .category{
+  max-width: 30%;
+  padding: 0 3px 0 3px;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: rgb(65, 206, 225) 3px solid;
+  background-color: #131313af;
+  text-transform: uppercase;
+}
+
+main .note-text{
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  background-color: #386c978f;
+  font-weight:500;
+}
+
+main #notice-2{
+  background-image: url('/img/pexels-emmy-e-2381069.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #notice-3{
+  background-image: url('/img/pexels-edoardo-tommasini-2034851.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #notice-4{
+  background-image: url('/img/pexels-pixabay-280076.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #notice-5{
+  background-image: url('/img/pexels-cottonbro-3945313.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

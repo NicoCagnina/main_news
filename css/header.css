@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
 
 /* Weather and social bar */
 body #social-media-bar {
@@ -22,50 +22,32 @@ body #social-media img{
   width: 25px;
 }
 
-/* Header */
-
-header{
-  display: flex;
-  flex-direction: column;
-  border-bottom: #333 2px solid;
-}
-
+/* Header mobile*/
 header #mobile-menu{
   display: flex;
-  padding: 5px 5px 0px 5px;
-  justify-content:space-between;
-}
-
-header h1{
-  font-size: 1.3em;
-  font-family: 'Abril Fatface', cursive;
-  text-transform: uppercase;
-}
-
-header #mobile-menu a{
-  margin-left: 20px;
-  margin-top: 2px;
-  font-size: 1em;
-  font-family: 'Abril Fatface', cursive;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-header #mobile-menu a:visited{
-  color: black;
-}
-
-header #title{
-  display: flex;
-  justify-content: center;
-}
-
-header #slogan{
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5px 0 0 0;
+  background-color: #252627;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
   font-weight:500;
-  font-size: 1em;
+  color: #fff;
+}
+
+header #mobile-menu #hamburger-menu{
+  align-self: center;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+header #mobile-menu p{ 
+  align-self: center;
   text-transform: uppercase;
-  border: #333 2px solid;
+}
+
+header .highlighted{
+  border-bottom: royalblue 2px solid;
+  color: rgb(60, 153, 240);
 }
