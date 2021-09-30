@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+    <link rel="stylesheet" href="css\normalize.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" href="css\styles.css">
     <!--===============================================================================================-->
@@ -14,26 +15,40 @@
     <!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--===============================================================================================-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <!--===============================================================================================-->
 </head>
 <body>
+  <div id="social-media-bar">
+    <div id="current-day">
+      <span class="material-icons">today</span>
+      <span class="date">10 June 2021</span>
+      <span class="material-icons weather">cloud_queue</span>
+      <span>23°C NY</span>
+    </div>
+        
+    <div id="social-media">
+      <img src="https://img.icons8.com/fluency/50/000000/facebook-new.png"/>
+      <img src="https://img.icons8.com/fluency/50/000000/twitter.png"/>
+      <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png"/>
+    </div>
+  </div>
+  
   <header>
-    <div id="social-media-bar">
-
-      <div id="current-day">
-        <span class="material-icons">today</span>
-        <span class="far fa-calendar"> 10 June 2021</span>
-      </div>
-      
-      <div id="current-time">
-        <span class="material-icons">cloud_queue</span>
-        <span class="fas fa-cloud"> 23°C NY</span>
-      </div>
-    
-      <div id="social-media">
+    <div id="mobile-menu">
+      <span class="material-icons" id="subscribe-button">
+        menu
+      </span>
+      <div >
+        <a href="">subscribe to our newsletter</a>
       </div>
     </div>
+    <div id="title">
+      <h1>trusty wallpaper.</h1>
+    </div>
+    <div id="slogan">
+      if it's not from us don't believe it.
+    </div>
   </header>
+
+
 </body>
 </html>

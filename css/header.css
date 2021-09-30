@@ -1,39 +1,71 @@
-header #social-media-bar {
-  display: flex;
-  width: 100%;
-  padding: 0px 20px 0px 20px;
-  background-color: rgb(37, 38, 39);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap');
 
-header #social-media-bar #current-day, #current-time{
-  justify-content: left;
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
+/* Weather and social bar */
+body #social-media-bar {
+  display: flex;
+  padding: 5px 5px 0px 5px;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(37, 38, 39);
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: .7em;
   color: aliceblue;
 }
 
-header #current-day{
-  margin-left: -20px;
+body .weather{
+  margin-left: 5px;
 }
 
-header #current-time{
-  margin-left: 7px;
+body #social-media img{
+  width: 25px;
 }
 
-header .material-icons {
-  vertical-align: middle !important;
-  padding-bottom: 3px;
-}
+/* Header */
 
-header #social-media{
+header{
   display: flex;
-  width: 35%;
-  margin: auto;
-  justify-content: flex-end;
+  flex-direction: column;
+  border-bottom: #333 2px solid;
 }
 
-header #social-media img{
-  width: 15%;
+header #mobile-menu{
+  display: flex;
+  padding: 5px 5px 0px 5px;
+  justify-content:space-between;
 }
 
+header h1{
+  font-size: 1.3em;
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+}
 
+header #mobile-menu a{
+  margin-left: 20px;
+  margin-top: 2px;
+  font-size: 1em;
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header #mobile-menu a:visited{
+  color: black;
+}
+
+header #title{
+  display: flex;
+  justify-content: center;
+}
+
+header #slogan{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: #333 2px solid;
+}
