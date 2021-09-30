@@ -42,7 +42,7 @@ main #highlighted-notice{
   width: 400px;
   height: 400px;
   margin-bottom: 5px;
-  background-image: url('/img/pexels-markus-spiske-2990644.jpg');
+  background-image: url('../img/pexels-markus-spiske-2990644.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -88,28 +88,28 @@ main .note-text{
 }
 
 main #notice-2{
-  background-image: url('/img/pexels-emmy-e-2381069.jpg');
+  background-image: url('../img/pexels-emmy-e-2381069.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-3{
-  background-image: url('/img/pexels-edoardo-tommasini-2034851.jpg');
+  background-image: url('../img/pexels-edoardo-tommasini-2034851.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-4{
-  background-image: url('/img/pexels-pixabay-280076.jpg');
+  background-image: url('../img/pexels-pixabay-280076.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-5{
-  background-image: url('/img/pexels-cottonbro-3945313.jpg');
+  background-image: url('../img/pexels-cottonbro-3945313.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
