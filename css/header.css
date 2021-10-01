@@ -22,6 +22,56 @@ body #social-media img{
   width: 25px;
 }
 
+/* Title large res */
+body #site-landing{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+body #site-landing #title-large{
+  margin:10px 0 10px 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight:500;
+}
+
+body #site-landing ul{
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  list-style: none;
+  font-size: 1rem;
+  border-bottom: black 1px solid;
+  text-transform: uppercase;
+}
+
+body #site-landing ul li{
+  margin: 0 0 0 15px;
+}
+
+body #site-landing a{
+  text-decoration: none;
+}
+
+body #site-landing a:visited{
+  color: black;
+}
+
+body #site-landing .highlighted{
+  border-bottom: royalblue 3px solid;
+  color: rgb(60, 153, 240);
+}
+
+body #site-landing .site-slogan{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
 /* Header mobile*/
 header #mobile-menu{
   display: flex;
@@ -30,7 +80,7 @@ header #mobile-menu{
   padding: 5px 0 0 0;
   background-color: #252627;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight:500;
   color: #fff;
 }

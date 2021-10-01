@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trusty Newspaper</title>
-  <link rel="stylesheet" href="css\normalize.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" href="css\styles.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" href="css\header.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" href="css\main.css">
-  <!--===============================================================================================-->
-  <link rel="stylesheet" href="css\mediaQuery.css">
-  <!--===============================================================================================-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--===============================================================================================-->
-</head>
-<body>
-  <div id="social-media-bar">
-    <div id="current-day">
-      <span class="material-icons">today</span>
-      <span class="date">10 June 2021</span>
-      <span class="material-icons weather">cloud_queue</span>
-      <span>23°C NY</span>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusty Newspaper</title>
+    <link rel="stylesheet" href="css\normalize.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css\styles.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css\header.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css\main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="css\mediaQuery.css">
+    <!--===============================================================================================-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--===============================================================================================-->
+  </head>
+  <body>
+    <div id="social-media-bar">
+      <div id="current-day">
+        <span class="material-icons">today</span>
+        <span class="date">10 June 2021</span>
+        <span class="material-icons weather">cloud_queue</span>
+        <span>23°C NY</span>
+      </div>
+          
+      <div id="social-media">
+        <img src="https://img.icons8.com/fluency/50/000000/facebook-new.png"/>
+        <img src="https://img.icons8.com/fluency/50/000000/twitter.png"/>
+        <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png"/>
+      </div>
     </div>
-        
-    <div id="social-media">
-      <img src="https://img.icons8.com/fluency/50/000000/facebook-new.png"/>
-      <img src="https://img.icons8.com/fluency/50/000000/twitter.png"/>
-      <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png"/>
-    </div>
-  </div>
 
-  <header>
-    <div id="mobile-menu">
-      <button class="material-icons" id="hamburger-menu">
-        menu
-      </button>
-      <p id="mobile-title">
-        <span class="highlighted">trusty</span> newspaper
+    <div id="site-landing">
+      <p id="title-large">
+        <span class="highlighted">trusty</span> newspaper <span class="material-icons"></span>
       </p>
-      <span class="material-icons" id="hamburger-menu">
-        search
-      </span>
+      <p class="site-slogan">if it's not from us, it's probably a lie.</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="">news</a>
+          </li>
+          <li>
+            <a href="">economy</a>
+          </li>
+          <li>
+            <a href="">sports</a>
+          </li>
+          <li>
+            <a href="">social</a>
+          </li>
+          <li>
+            <a href="">politic</a>
+          </li>
+          <li>
+            <a href="">technology</a>
+          </li>
+          <li>
+            <a href="">tv</a>
+          </li>
+          <li>
+            <a href="">culture</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </header>
 
-  <main>
-    <div id="trending-now">
-      <span class="highlighted">trending now</span>
-      <p>if it's not from us, it's probably a lie.</p>
-    </div>
-    
-    <section id="trending-articles">
-
-      <div id="highlighted-notice" class="notice-container">
-        <div class="category">
-          <p>social</p>
-        </div>
-        <div class="note-text">
-          <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
-          <p class="note-description">Lorem, ipsum dolor.</p>
-        </div>
+    <header>
+      <div id="mobile-menu">
+        <button class="material-icons" id="hamburger-menu">
+          menu
+        </button>
+        <p id="mobile-title">
+          <span class="highlighted">trusty</span> newspaper
+        </p>
+        <span class="material-icons" id="hamburger-menu">
+          search
+        </span>
       </div>
+    </header>
 
-      <div class="trending-news-col1">
-        <div id="notice-2" class="notice-container">
-          <div class="category">
-            <p>politic</p>
-          </div>
-          <div class="note-text">
-            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
-            <p class="note-description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
-  
-        <div id="notice-3" class="notice-container">
-          <div class="category">
-            <p>culture</p>
-          </div>
-          <div class="note-text">
-            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
-            <p class="note-description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
+    <main>
+      <div id="trending-now">
+        <span class="highlighted">trending now</span>
+        <p class="site-slogan-mobile">if it's not from us, it's probably a lie.</p>
       </div>
-      <div class="trending-news-col2">
-        <div id="notice-4" class="notice-container">
+      
+      <section id="trending-articles">
+
+        <div id="highlighted-notice" class="notice-container">
           <div class="category">
             <p>social</p>
           </div>
@@ -97,18 +100,50 @@
             <p class="note-description">Lorem, ipsum dolor.</p>
           </div>
         </div>
-  
-        <div id="notice-5" class="notice-container">
-          <div class="category">
-            <p>tv</p>
+
+        <div class="trending-news-col1">
+          <div id="notice-2" class="notice-container">
+            <div class="category">
+              <p>politic</p>
+            </div>
+            <div class="note-text">
+              <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="note-description">Lorem, ipsum dolor.</p>
+            </div>
           </div>
-          <div class="note-text">
-            <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
-            <p class="note-description">Lorem, ipsum dolor.</p>
+    
+          <div id="notice-3" class="notice-container">
+            <div class="category">
+              <p>culture</p>
+            </div>
+            <div class="note-text">
+              <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="note-description">Lorem, ipsum dolor.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-</body>
+        <div class="trending-news-col2">
+          <div id="notice-4" class="notice-container">
+            <div class="category">
+              <p>social</p>
+            </div>
+            <div class="note-text">
+              <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="note-description">Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+    
+          <div id="notice-5" class="notice-container">
+            <div class="category">
+              <p>tv</p>
+            </div>
+            <div class="note-text">
+              <p class="note-title">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="note-description">Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
