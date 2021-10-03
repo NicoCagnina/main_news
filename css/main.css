@@ -40,7 +40,7 @@ main #highlighted-notice{
   width: 400px;
   height: 400px;
   margin-bottom: 5px;
-  background-image: url('../img/pexels-markus-spiske-2990644.jpg');
+  background-image: url('../img/trending-news/pexels-markus-spiske-2990644.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -83,28 +83,28 @@ main .note-text{
 }
 
 main #notice-2{
-  background-image: url('../img/pexels-emmy-e-2381069.jpg');
+  background-image: url('../img/trending-news/pexels-emmy-e-2381069.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-3{
-  background-image: url('../img/pexels-edoardo-tommasini-2034851.jpg');
+  background-image: url('../img/trending-news/pexels-edoardo-tommasini-2034851.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-4{
-  background-image: url('../img/pexels-pixabay-280076.jpg');
+  background-image: url('../img/trending-news/pexels-pixabay-280076.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-5{
-  background-image: url('../img/pexels-cottonbro-3945313.jpg');
+  background-image: url('../img/trending-news/pexels-cottonbro-3945313.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -113,14 +113,29 @@ main #notice-5{
 /* Aside */ 
 main aside{
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
 /* Secondary news */
 main #second-half{
   display: flex;
+  flex-direction: row-reverse;
+  margin: 25px 8% 0 8%;
+}
+
+main #stay-connected{
+  display: flex;
   flex-direction: column;
-  width: 100%;
+  align-self: flex-end;
+  width: 80%;
+  margin: 15px 0 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px groove black;
+}
+
+main #stay-connected img{
+  width: 30px;
 }
 
 main #stay-connected h2{
@@ -133,16 +148,6 @@ main #stay-connected h2{
   background-color: #131313;
 }
 
-main #stay-connected{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 15px 0 15px 0;
-  padding-bottom: 15px;
-  border-bottom: 2px groove black;
-  border-top: 2px groove black;
-}
-
 main #stay-connected-title{
   align-self: flex-start;
 }
@@ -150,13 +155,14 @@ main #stay-connected-title{
 main .social-media-reach{
   display: flex;
   align-content: center;
+  margin-right: 20px;
   max-height: 30px;
 }
 
 main .social-media-reach p{
-  margin-left: 10px;
+  margin-left: 5px;
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: .8rem;
   text-transform: capitalize;
 }
 
@@ -177,8 +183,7 @@ main .medium-ad{
   align-self: center;
   width: 290px;
   height: 156px;
-  background-color: tomato;
-  background-image: url('../img/ads/lays_ad.jpg');
+  background-image: url('../img/ads/lays_ad.png');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -188,6 +193,7 @@ main .medium-ad{
 main #secondary-news-container{
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
   justify-content: space-between;
 }
 

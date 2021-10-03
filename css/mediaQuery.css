@@ -16,6 +16,14 @@
     padding: 0;
     width: 96%;
   }
+
+  main #second-half{
+    flex-wrap: wrap;
+  }
+
+  main #stay-connected{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 754px) {
