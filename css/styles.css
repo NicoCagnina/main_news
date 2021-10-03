@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+
 body{
   background-color: white;
 }
 
 .material-icons {
   vertical-align: middle !important;
-  padding-bottom: 3px;;
+  padding-bottom: 3px;
+  background-color: transparent;
 }

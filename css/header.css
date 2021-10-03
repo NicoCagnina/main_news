@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
-
 /* Weather and social bar */
 body #social-media-bar {
   display: flex;
@@ -29,7 +26,7 @@ body #site-landing{
   align-content: center;
 }
 
-body #site-landing #title-large{
+body .title-large{
   margin:10px 0 10px 0;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;

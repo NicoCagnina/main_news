@@ -1,4 +1,3 @@
-
 main #trending-now{
   display: flex;
   margin: 5px 0 5px 0;
@@ -14,7 +13,6 @@ main #trending-now span, p{
 
 main #trending-now span{
   padding: 5px;
-  max-width: 30%;
   text-transform: uppercase;
   color: #fff;
   background-color: #131313;
@@ -48,7 +46,7 @@ main #highlighted-notice{
   background-size: cover; 
 }
 
-/* Notice container*/
+/* Trending Notice container*/
 
 /*[class^="notice-"]{*/
 
@@ -69,13 +67,10 @@ main .trending-news-col1,.trending-news-col2 {
   margin: auto;
 }
 
-main .category{
-  max-width: 30%;
-  padding: 0 3px 0 3px;
-  font-size: 1.5em;
-  text-align: center;
-  border-bottom: rgb(65, 206, 225) 3px solid;
-  background-color: #131313af;
+main .category span{
+  padding: 3px 3px 0 3px;
+  font-size: 1.1rem;
+  background-color: #131313e0;
   text-transform: uppercase;
 }
 
@@ -110,6 +105,175 @@ main #notice-4{
 
 main #notice-5{
   background-image: url('../img/pexels-cottonbro-3945313.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+/* Aside */ 
+main aside{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Secondary news */
+main #second-half{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main #stay-connected h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: .6rem;
+  font-weight: 600;
+  text-transform: uppercase;  
+  padding: 5px;
+  color: #fff;
+  background-color: #131313;
+}
+
+main #stay-connected{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px 0 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px groove black;
+  border-top: 2px groove black;
+}
+
+main #stay-connected-title{
+  align-self: flex-start;
+}
+
+main .social-media-reach{
+  display: flex;
+  align-content: center;
+  max-height: 30px;
+}
+
+main .social-media-reach p{
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+main .social-media-reach button{
+  border: none;
+  background-color: transparent;
+  margin-left: 50%;
+  align-self: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: .8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+
+main .medium-ad{
+  color: gray;
+  align-self: center;
+  width: 290px;
+  height: 156px;
+  background-color: tomato;
+  background-image: url('../img/ads/lays_ad.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 5px 5px 5px 5px ;
+}
+
+main #secondary-news-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main #secondary-news-title{
+  width: 100%;
+}
+
+main #secondary-news-title div{
+  display: flex;
+  border-bottom: 2px groove rgb(65, 206, 225) 
+}
+
+main #secondary-news-title h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;  
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(65, 206, 225) ;
+}
+
+main .secondary-notice{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 49%;
+  margin-top: 4px;
+  height: 150px;
+}
+
+main .secondary-category span{
+  padding: 0 3px 0 3px;
+  font-size: 1rem;
+  border-bottom: rgb(65, 206, 225) 2px solid;
+  color: #fff;
+  background-color: #131313af;
+  text-transform: uppercase;
+}
+
+main .secondary-title{
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  color: #fff;
+  background-color: #386c978f;
+  font-weight:500;
+}
+
+main #secondary-notice-1{
+  background-image: url('../img/secondary-news/pexels-motional-studio-1081685.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #secondary-notice-2{
+  background-image: url('../img/secondary-news/pexels-cottonbro-4009402.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #secondary-notice-3{
+  background-image: url('../img/secondary-news/pexels-wendy-wei-1190297.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #secondary-notice-4{
+  background-image: url('../img/secondary-news/pexels-shvets-production-7562357.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #secondary-notice-5{
+  background-image: url('../img/secondary-news/pexels-luis-quintero-2774556.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main #secondary-notice-6{
+  background-image: url('../img/secondary-news/pexels-rodnae-productions-6806566.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 

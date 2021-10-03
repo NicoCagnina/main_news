@@ -1,0 +1,96 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  color: #fff;
+  background-color: black;
+}
+
+footer .title-large{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:500;
+}
+
+footer .highlighted{
+  border-bottom: royalblue 2px solid;
+  color: rgb(60, 153, 240);
+}
+
+footer .highlighted-no-border{
+  color: rgb(60, 153, 240);
+}
+
+footer #about-us, 
+footer #contact-us{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+footer #about-us h3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+footer #about-us p{
+  margin-top: 0;
+  max-width: 50%;
+  font-family: 'Nunito', sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+footer #social-links{
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+
+footer #subscribe{
+  align-self: center;
+  margin-top: 30px;
+}
+
+footer #subscribe button{
+  padding:5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: rgb(60, 153, 240);
+  border-color: transparent;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+footer #contact-us h4{
+  margin-bottom: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer #copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #fff;
+}
