@@ -82,7 +82,7 @@ header #mobile-menu{
   color: #fff;
 }
 
-header #mobile-menu #hamburger-menu{
+header #mobile-menu .hamburger-menu{
   align-self: center;
   border: none;
   background-color: transparent;

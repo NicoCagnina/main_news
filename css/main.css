@@ -48,8 +48,6 @@ main #highlighted-notice{
 
 /* Trending Notice container*/
 
-/*[class^="notice-"]{*/
-
 main .notice-container{
   display: flex;
   flex-direction: column;
@@ -71,6 +69,7 @@ main .category span{
   padding: 3px 3px 0 3px;
   font-size: 1.1rem;
   background-color: #131313e0;
+  border-bottom: 2px solid rgb(65, 206, 225);
   text-transform: uppercase;
 }
 
@@ -203,7 +202,7 @@ main #secondary-news-title{
 
 main #secondary-news-title div{
   display: flex;
-  border-bottom: 2px groove rgb(65, 206, 225) 
+  border-bottom: 2px groove rgb(65, 206, 225) ;
 }
 
 main #secondary-news-title h2{
