@@ -33,11 +33,11 @@ main #trending-articles{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0 70px 0 70px;
 }
 
 main #highlighted-notice{
-  width: 400px;
+  flex-grow: 3;
   height: 400px;
   margin-bottom: 5px;
   background-image: url('../img/trending-news/pexels-markus-spiske-2990644.png');
@@ -58,6 +58,8 @@ main .notice-container{
 
 main .trending-news-col1,.trending-news-col2 {
   display: flex;
+  flex-grow: 2;
+  flex-shrink: 2;
   padding-left: 5px;
   height: 400px;
   flex-direction: column;
@@ -194,6 +196,7 @@ main #secondary-news-container{
   flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
+  margin-right: 50px;
 }
 
 main #secondary-news-title{
