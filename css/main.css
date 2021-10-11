@@ -40,7 +40,7 @@ main #highlighted-notice{
   flex-grow: 3;
   height: 400px;
   margin-bottom: 5px;
-  background-image: url('../img/trending-news/pexels-markus-spiske-2990644.png');
+  background-image: url('../img/trending-news/pexels-markus-spiske-2990644.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -84,28 +84,28 @@ main .note-text{
 }
 
 main #notice-2{
-  background-image: url('../img/trending-news/pexels-emmy-e-2381069.png');
+  background-image: url('../img/trending-news/pexels-emmy-e-2381069.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-3{
-  background-image: url('../img/trending-news/pexels-edoardo-tommasini-2034851.png');
+  background-image: url('../img/trending-news/pexels-edoardo-tommasini-2034851.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-4{
-  background-image: url('../img/trending-news/pexels-pixabay-280076.png');
+  background-image: url('../img/trending-news/pexels-pixabay-280076.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #notice-5{
-  background-image: url('../img/trending-news/pexels-cottonbro-3945313.png');
+  background-image: url('../img/trending-news/pexels-cottonbro-3945313.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -184,7 +184,7 @@ main .medium-ad{
   align-self: center;
   width: 290px;
   height: 156px;
-  background-image: url('../img/ads/lays_ad.png');
+  background-image: url('../img/ads/lays_ad.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -246,42 +246,42 @@ main .secondary-title{
 }
 
 main #secondary-notice-1{
-  background-image: url('../img/secondary-news/pexels-motional-studio-1081685.jpg');
+  background-image: url('../img/secondary-news/pexels-motional-studio-1081685.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #secondary-notice-2{
-  background-image: url('../img/secondary-news/pexels-cottonbro-4009402.jpg');
+  background-image: url('../img/secondary-news/pexels-cottonbro-4009402.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #secondary-notice-3{
-  background-image: url('../img/secondary-news/pexels-wendy-wei-1190297.jpg');
+  background-image: url('../img/secondary-news/pexels-wendy-wei-1190297.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #secondary-notice-4{
-  background-image: url('../img/secondary-news/pexels-shvets-production-7562357.jpg');
+  background-image: url('../img/secondary-news/pexels-shvets-production-7562357.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #secondary-notice-5{
-  background-image: url('../img/secondary-news/pexels-luis-quintero-2774556.jpg');
+  background-image: url('../img/secondary-news/pexels-luis-quintero-2774556.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 main #secondary-notice-6{
-  background-image: url('../img/secondary-news/pexels-rodnae-productions-6806566.jpg');
+  background-image: url('../img/secondary-news/pexels-rodnae-productions-6806566.jpeg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover; 
