@@ -11,5 +11,8 @@
 
 - [https://nicocagnina.github.io/main_news/](https://nicocagnina.github.io/main_news/)
 
+<p>💼 By:</p>
+
+- [https://github.com/NicoCagnina](https://github.com/NicoCagnina)
 
 
