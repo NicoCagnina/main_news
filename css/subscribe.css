@@ -1,0 +1,60 @@
+#form-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+#form-container * {
+  box-sizing: border-box;
+}
+
+#form-container ul{
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+#form-container ul input{
+  flex-basis: 200px;
+  font-family: 'Nunito', sans-serif;
+  font-size: .8em;
+}
+
+#form-container ul li{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#form-container ul > li >label{
+  flex: 1 0 120px;
+  padding: 5px;
+  padding-right: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#form-container ul button{
+  background-color: transparent;
+  border-style: none;
+  padding: 2px;
+  cursor: pointer;
+}
+
+#form-container .highlighted{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight:bold;
+  border-bottom: #131313 2px solid;
+  color: rgb(60, 153, 240);
+}
+
+
+
+
+
+
