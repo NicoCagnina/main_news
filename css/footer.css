@@ -61,7 +61,7 @@ footer #subscribe{
   margin-top: 30px;
 }
 
-footer #subscribe button{
+footer #subscribe input{
   padding:5px;
   font-family: 'Montserrat', sans-serif;
   color: #fff;

@@ -15,6 +15,16 @@ body .weather{
   margin-left: 5px;
 }
 
+body #social-media-bar input{
+  margin-bottom: 2px;
+  padding: 3px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 body #social-media img{
   width: 25px;
 }
@@ -57,7 +67,7 @@ body #site-landing a:visited{
   color: black;
 }
 
-body #site-landing a:hover{
+body #site-landing ul a:hover{
   background-color: #131313;
   color: white;
 }
