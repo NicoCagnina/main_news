@@ -44,6 +44,10 @@ body .title-large{
   font-weight:500;
 }
 
+body .title-large a{
+  color: rgb(37, 38, 39);
+}
+
 body #site-landing ul{
   display: flex;
   justify-content: center;
@@ -64,7 +68,7 @@ body #site-landing a{
 }
 
 body #site-landing a:visited{
-  color: black;
+  color: rgb(37, 38, 39);
 }
 
 body #site-landing ul a:hover{
