@@ -88,59 +88,74 @@
     </header>
 
     <main>
-      <div id="trending-now">
-        <span class="highlighted">get your subscription</span>
-      </div>
+      <p class="welcome-message">Welcome </p>
+      <p id="subscription-message">Let’s get started</p>
 
       <div id="form-container">
         <form action="">
           <ul>
             <li>
               <label for="name">Name:</label>
-              <input type="text" name="name" id="" placeholder="Jane Doe">  
+              <input type="text" name="name" id="name-text" placeholder="Jane Doe">  
             </li>
+            <div class="error-msg-name validated">error msg</div>
 
             <li>
               <label for="email">Email:</label>
-              <input type="email" name="email" id="" placeholder="jane.doe@email.com">
+              <input type="email" name="email" id="email-text" placeholder="jane.doe@email.com">
             </li>
+            <div class="error-msg-email validated">error msg</div>
 
             <li>
               <label for="password">Password:</label>
-              <input type="password" name="password" id="" placeholder="********">
+              <input type="password" name="password" id="psw-text" placeholder="********">
             </li>
+            <div class="error-psw validated">error msg</div>
+
+            <li>
+              <label for="password">Repeat password:</label>
+              <input type="password" name="password-repeat" id="psw-confirmation-text" placeholder="********">
+            </li>
+            <div class="error-msg-psw validated">error msg</div>
 
             <li>
               <label for="age">Age:</label>
-              <input type="number" name="age" id="" placeholder="21">
+              <input type="number" name="age" id="age-text" placeholder="21">
             </li>
+            <div class="error-msg-age validated">error msg</div>
 
             <li>
               <label for="phoneNumber">Phone number:</label>
-              <input type="text" name="phoneNumber" id="" placeholder="+54938481392">
+              <input type="text" name="phoneNumber" id="phone-text" placeholder="+54938481392">
             </li>
+            <div class="error-msg-phone validated">error msg</div>
 
             <li>
               <label for="address">Address:</label>
-              <input type="text" name="address" id="" placeholder="P. Sherman 42">
+              <input type="text" name="address" id="address-text" placeholder="P. Sherman 42">
             </li>
+            <div class="error-msg-address validated">error msg</div>
 
             <li>
               <label for="city">City:</label>
-              <input type="text" name="city" id="" placeholder="Sidney">
+              <input type="text" name="city" id="city-text" placeholder="Sidney">
             </li>
+            <div class="error-msg-city validated">error msg</div>
             
             <li>
               <label for="postalCode">Postal code:</label>
-              <input type="text" name="postalCode" id="" placeholder="2000">
+              <input type="text" name="postalCode" id="postal-text" placeholder="2000">
             </li>
+            <div class="error-msg-postal validated">error msg</div>
 
             <li>
               <label for="dni">Dni:</label>
-              <input type="text" name="dni" id="" placeholder="40362846">
+              <input type="text" name="dni" id="dni-text" placeholder="40362846">
             </li>
+            <div class="error-msg-dni validated">error msg</div>
+
             <li>
-              <button class="highlighted">submit</button>
+              <button id="submit-btn" class="highlighted" type="button">submit</button>
             </li>
           </ul>
         </form>
@@ -184,5 +199,9 @@
         <span>&copy; trusty newspaper 2021 | all rights reserved</span>
       </div>
     </footer>
+
+  <!--===============================================================================================-->
+    <script src="js\subscription-validations.js"></script>
+    <script src="js\subscription-events.js"></script>
   </body>
 </html>

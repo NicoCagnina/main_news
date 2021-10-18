@@ -1,7 +1,21 @@
+#subscription-message,
+.welcome-message{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+  font-weight:bold;
+  color: #131313;
+}
+
 #form-container {
   display: flex;
   justify-content: center;
+  max-width: 80%;
   margin: 15px auto;
+  background-image: url("../img/subscription/background-image.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #form-container * {
@@ -9,9 +23,11 @@
 }
 
 #form-container ul{
-  margin: 0 auto;
+  margin: 20px auto;
   list-style: none;
-  padding: 0;
+  padding: 20px;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.733);
 }
 
 #form-container ul input{
@@ -53,8 +69,13 @@
   color: rgb(60, 153, 240);
 }
 
+#form-container .validated{
+  color: transparent;
+}
 
-
-
+div[class^='error-msg']{
+  margin: auto;
+  color: crimson;
+}
 
 
