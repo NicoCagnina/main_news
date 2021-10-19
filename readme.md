@@ -1,5 +1,5 @@
 <h1 align="center">Become a software developer by Radium Rocket 🚀</h1>
-<h3 align="center">Weekly Problem #5</h3>
+<h3 align="center">Weekly Problem #3 and #5</h3>
 
 <p>Projects from previous weeks:</p>
 
