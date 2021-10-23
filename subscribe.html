@@ -19,10 +19,19 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" href="css\media_queries.css">
     <!--===============================================================================================-->
+    <link rel="stylesheet" href="css\modal.css">
+    <!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--===============================================================================================-->
   </head>
   <body>
+
+    <div class="modal">
+      <div class="inner-modal">
+
+      </div>
+    </div>
+
     <div id="social-media-bar">
       <div id="current-day">
         <span class="material-icons">today</span>
@@ -128,13 +137,13 @@
 
             <li>
               <label for="phoneNumber">Phone number:</label>
-              <input type="text" name="phoneNumber" id="phone-text" placeholder="+54938481392">
+              <input type="text" name="phoneNumber" id="phone-text" placeholder="54938481392">
             </li>
             <div class="error-msg-phone validated">error msg</div>
 
             <li>
               <label for="address">Address:</label>
-              <input type="text" name="address" id="address-text" placeholder="P. Sherman 42">
+              <input type="text" name="address" id="address-text" placeholder="Sherman 42">
             </li>
             <div class="error-msg-address validated">error msg</div>
 
@@ -205,5 +214,6 @@
   <!--===============================================================================================-->
     <script src="js\subscription-validations.js"></script>
     <script src="js\subscription-events.js"></script>
+    <script src="js\api-call.js"></script>
   </body>
 </html>

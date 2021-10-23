@@ -16,8 +16,11 @@ function validateInputs(){
      validatePsw() && 
      validateAge() &&
      validatePhone() &&
-     validateAddress()){    
-    alert(`Subscription complete! This is your information: ${personalInformation}`);
+     validateAddress() &&
+     validateCity() &&
+     validatePostal() &&
+     validateDni()){    
+    sendData();
   } else{
     alert(`There was an error. Please check your information: ${personalInformation}`);
   }
