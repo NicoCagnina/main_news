@@ -28,6 +28,8 @@ function responseManager(res){
 }
 
 function dataManager(data){
+  showConfirmationModal(data);
+  saveOnLocalS();
   console.log(data);
 }
 

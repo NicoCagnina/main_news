@@ -21,9 +21,8 @@ function validateInputs(){
      validatePostal() &&
      validateDni()){    
     sendData();
-    saveOnLocalS();
   } else{
-    alert(`There was an error. Please check your information: ${personalInformation}`);
+    showErrorModal();
   }
 }
 

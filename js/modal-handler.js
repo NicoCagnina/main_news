@@ -40,17 +40,47 @@ function showModal(titleHtml, contentHtml, buttons) {
 }
 
 function showConfirmationModal(userData){
-    showModal("Sample Modal Title", 
+    showModal("Subscription succesfully sended!", 
     ` 
-    user data
+    Your name 👤: ${userData.name} 
+ 
+    Your email 📧: ${userData.email} 
+
+    Your password 🔒: ${userData.password} 
+ 
+    Your age 📆: ${userData.age} 
+
+    Your phone 📞: ${userData.phoneNumber} 
+    
+    Your address 📝: ${userData.address} 
+
+    Your city 🌍: ${userData.city} 
+
+    Your postal code 📬: ${userData.postalCode} 
+
+    Your id 📟: ${userData.idNumber} 
+    
     `, [
   {
   label: "Great!",
   onClick: (modal) => {
-  console.log("The button was clicked!");
   },
-  triggerClose: false
+  triggerClose: true
   }
   ]);
+}
+
+function showErrorModal(){
+  showModal("Something went wrong!", 
+  ` 
+  Please check your personal information.
+  `, [
+{
+label: "Ok",
+onClick: (modal) => {
+},
+triggerClose: true
+}
+]);
 }
 

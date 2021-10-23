@@ -26,4 +26,7 @@ function checkLocalStorageData(){
   postalInput.value = localStorage.getItem('postalCode');
   dniInput.value = localStorage.getItem('id');
 
+  if(localStorage.getItem('name')){
+  welcomeMsg.textContent = 'Welcome back ' + localStorage.getItem('name');
+  }
 }
