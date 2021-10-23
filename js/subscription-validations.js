@@ -77,4 +77,3 @@ var validateDni = function () {
   var ageRegex = /^-?\d\d*$/;
   return(dniInput.value.match(ageRegex) && dniInput.value.length >= 7 && dniInput.value.length <= 8);
 }
-

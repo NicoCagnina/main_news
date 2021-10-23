@@ -24,7 +24,6 @@ var sendData = function (){
 }
 
 function responseManager(res){
-  console.log(res);
   return res.json();
 }
 
