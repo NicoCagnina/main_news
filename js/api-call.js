@@ -34,5 +34,5 @@ function dataManager(data){
 }
 
 function errorManager(err){
-  console.log(err);
+  showErrorModal(err);
 }

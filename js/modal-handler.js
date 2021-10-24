@@ -70,17 +70,32 @@ function showConfirmationModal(userData){
   ]);
 }
 
-function showErrorModal(){
-  showModal("Something went wrong!", 
-  ` 
-  Please check your personal information.
-  `, [
-{
-label: "Ok",
-onClick: (modal) => {
-},
-triggerClose: true
-}
-]);
+function showErrorModal(err){
+
+  if(!err){
+    showModal("Something went wrong!", 
+    ` 
+    Please check your personal information.
+    `, [
+    {
+    label: "Ok",
+    onClick: (modal) => {
+    },
+    triggerClose: true
+    }
+    ]);
+  } else{
+    showModal("Something went wrong!", 
+    ` 
+    ${err};
+    `, [
+    {
+    label: "Ok",
+    onClick: (modal) => {
+    },
+    triggerClose: true
+    }
+    ]);
+  }
 }
 
