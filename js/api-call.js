@@ -1,4 +1,4 @@
-var url = new URL('http://curso-dev-2021.herokuapp.com/newsletter');
+var url = new URL('https://curso-dev-2021.herokuapp.com/newsletter');
 var params = url.searchParams;
 
 
